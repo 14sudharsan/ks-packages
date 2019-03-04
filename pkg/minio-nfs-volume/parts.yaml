@@ -1,0 +1,35 @@
+{
+   "name": "minio-nfs-volume",
+   "apiVersion": "0.0.1",
+   "kind": "ksonnet.io/parts",
+   "description": "Prototype for creating a Minio NFS based persistent volume claim\n",
+   "author": "Krishna Durai <duselvar@cisco.com>",
+   "contributors": [
+      {
+         "name": "Krishna Durai",
+         "email": "duselvar@cisco.com"
+      }
+   ],
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/CiscoAI/ks-packages"
+   },
+   "bugs": {
+      "url": "https://github.com/CiscoAI/ks-packages/issues"
+   },
+   "keywords": [
+      "kubeflow",
+      "tensorflow",
+      "database"
+   ],
+   "quickStart": {
+      "prototype": "io.ksonnet.pkg.minio-nfs-volume",
+      "componentName": "minio-nfs-volume",
+      "flags": {
+         "name": "minio-nfs-volume",
+         "namespace": "default"
+      },
+      "comment": "Create Minio NFS based volume"
+   },
+   "license": "Apache 2.0"
+}

@@ -1,0 +1,6 @@
+apiVersion: '0.1'
+kind: ksonnet.io/registry
+libraries:
+  minio-nfs-volume:
+    version: master
+    path: minio-nfs-volume
