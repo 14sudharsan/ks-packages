@@ -4,3 +4,6 @@ libraries:
   minio-nfs-volume:
     version: master
     path: minio-nfs-volume
+  nfs-volume:
+    version: master
+    path: nfs-volume
