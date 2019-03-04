@@ -7,3 +7,6 @@ libraries:
   nfs-volume:
     version: master
     path: nfs-volume
+  nfs-server:
+    version: master
+    path: nfs-server
