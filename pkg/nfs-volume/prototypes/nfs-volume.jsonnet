@@ -11,7 +11,7 @@
 
 
 local k = import "k.libsonnet";
-local nfs = import "ciscoai/nfs-volume/nfs-volume.libsonnet";
+local nfs = import "ciscoai-global/nfs-volume/nfs-volume.libsonnet";
 
 // updatedParams uses the environment namespace if
 // the namespace parameter is not explicitly set
@@ -33,4 +33,3 @@ std.prune(k.core.v1.list.new([
   nfs.parts.nfsPV(name, namespace, nfs_server_ip, capacity, path),
   nfs.parts.nfsPVC(name, namespace, storage_request)
 ]))
-
